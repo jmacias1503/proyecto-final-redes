@@ -1,0 +1,48 @@
+\subsection{Buenas Prácticas de Seguridad}
+
+Las siguientes prácticas se ajustan al contexto del edificio académico y están dirigidas al personal técnico institucional. Se priorizan acciones simples, de alto impacto y fáciles de mantener.
+
+\paragraph*{1. Contraseñas seguras}
+\begin{itemize}
+ \item Usa contraseñas largas (12+ caracteres) y únicas para cada sistema.
+ \item Cambia las contraseñas por defecto de firewall, switches y puntos de acceso en el primer encendido.
+ \item Activa bloqueo tras intentos fallidos y, si es posible, verificación en dos pasos para accesos críticos.
+\end{itemize}
+
+\paragraph*{2. Uso de VPN}
+\begin{itemize}
+    \item Permite accesos remotos solo por la VPN institucional; no abras la administración a Internet.
+    \item Limita la VPN a perfiles y redes que realmente lo necesiten (subred administrativa).
+    \item Renueva certificados/credenciales de la VPN y desactiva accesos que ya no se usan.
+\end{itemize}
+
+\paragraph*{3. Atención al firewall (físico y lógico)}
+\begin{itemize}
+    \item Ubica el equipo en gabinete seguro, con energía regulada y etiquetado claro.
+    \item Aplica la regla: “permitir solo lo necesario, bloquear el resto”; elimina reglas temporales.
+    \item Revisa alertas y registros básicos cada semana y documenta cambios importantes.
+\end{itemize}
+
+
+\paragraph*{4. Copias de seguridad}
+\begin{itemize}
+    \item Programa respaldos automáticos de configuraciones (firewall, switches, WiFi) y conserva al menos 3 versiones.
+    \item Guarda copias fuera del mismo equipo (repositorio interno y copia externa).
+    \item Prueba la restauración periódicamente, de preferencia fuera de horario.
+\end{itemize}
+
+\paragraph*{5. Actualizaciones de equipos}
+\begin{itemize}
+    \item Revisa y aplica actualizaciones de firmware/sistema en ventanas mensuales.
+    \item Prioriza parches de seguridad y consulta notas de versión antes de actualizar.
+    \item Ten listo un plan de reversión: respaldo previo y procedimiento de \emph{rollback}.
+\end{itemize}
+
+\paragraph*{6. Control y vigencia de credenciales}
+\begin{itemize}
+    \item Usa cuentas personales con el mínimo de permisos necesarios; evita cuentas compartidas.
+    \item Da de baja cuentas de excolaboradores de inmediato.
+    \item Lleva un registro de accesos y revísalo al menos cada trimestre.
+\end{itemize}
+
+Estas prácticas son concretas y accionables para el entorno descrito; ayudan a operar de forma segura y a reducir riesgos sin agregar complejidad innecesaria.
