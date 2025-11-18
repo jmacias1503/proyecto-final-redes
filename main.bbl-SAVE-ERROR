@@ -16,5 +16,724 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{cisneros2021infraestructura}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1db9142f4475d5f8687b965d9ead3d27}{%
+           family={Cisneros},
+           familyi={C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Redes y Comunicaciones}%
+      }
+      \strng{namehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{fullhash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{bibnamehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{authorbibnamehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{authornamehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{authorfullhash}{1db9142f4475d5f8687b965d9ead3d27}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible en: \url{https://www.ift.org.mx/sites/default/files/estudio_infraestructura_movil_20241217_final.pdf}}
+      \field{title}{Infraestructura pasiva de redes: fundamentos y mejores prácticas}
+      \field{year}{2021}
+    \endentry
+    \entry{flukenetworks2022cablemanagement}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ff51ae0c32e8f90fecee76e93e2eb6}{%
+           family={{Fluke Networks}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{fullhash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{bibnamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authorbibnamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authornamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authorfullhash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.flukenetworks.com/blog/cabling-chronicles/network-and-cable-testing}}
+      \field{note}{Accedido el 28 de octubre de 2025}
+      \field{title}{Cable Management and Best Installation Practices}
+      \field{year}{2022}
+    \endentry
+    \entry{fries2011tica606}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7eb75c953a38e9ad888a1c3e92890011}{%
+           family={Fries},
+           familyi={F\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Telecommunications Industry Association}%
+      }
+      \strng{namehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{fullhash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{bibnamehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{authorbibnamehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{authornamehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{authorfullhash}{7eb75c953a38e9ad888a1c3e92890011}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible en: \url{https://global.ihs.com/doc_detail.cfm?document_name=TIA-606-B}}
+      \field{title}{ANSI/TIA-606-B: Administration Standard for Telecommunications Infrastructure}
+      \field{year}{2011}
+    \endentry
+    \entry{ghafoor2018campus}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=269b45f3195af90526583a12424742c1}{%
+           family={Ghafoor},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7714cdcc1c1dd74e934334afee695b0a}{%
+           family={Alobaidy},
+           familyi={A\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7c71add42ad5526c6133d7b8316563a}{%
+           family={Othman},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1cda1a00b810f7f3ce5e6629adef6ef}
+      \strng{fullhash}{0694544084816925e0ba00012944e926}
+      \strng{bibnamehash}{0694544084816925e0ba00012944e926}
+      \strng{authorbibnamehash}{0694544084816925e0ba00012944e926}
+      \strng{authornamehash}{f1cda1a00b810f7f3ce5e6629adef6ef}
+      \strng{authorfullhash}{0694544084816925e0ba00012944e926}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications (IJACSA)}
+      \field{number}{11}
+      \field{title}{Design and implementation of a campus network based on hierarchical model}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{pages}{426\bibrangedash 432}
+      \range{pages}{7}
+    \endentry
+    \entry{kurose2021computer}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=940597b1d3215b2b17b93101036fbb5e}{%
+           family={Kurose},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2e119f22d4ef9df7cfb63c82975b459}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Keith\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{fullhash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{bibnamehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{authorbibnamehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{authornamehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{authorfullhash}{79b9c386af384b822481cee1fccbb76a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8th}
+      \field{title}{{Computer Networking: A Top-Down Approach}}
+      \field{year}{2021}
+    \endentry
+    \entry{martinez2020infraestructura}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ce8ce0529416fc1c2663cd2f15de4389}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Leandro},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a55b686cea34a8923b6ea395549772e}{%
+           family={otros},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{fullhash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{bibnamehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{authorbibnamehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{authornamehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{authorfullhash}{bb676a356843cc0325f49a8c00ad2203}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La infraestructura activa se refiere al equipamiento físico electrónico de una red, como routers, switches, antenas, transpondedores y servidores de control y gestión.}
+      \field{journaltitle}{Comunications Network Sustainability}
+      \field{note}{Disponible en: \url{https://people.ac.upc.edu/leandro/pubs/cn-sust-ieee.pdf?utm_source=chatgpt.com}}
+      \field{title}{Infraestructura activa: equipos físicos electrónicos de una red como routers, switches, antenas, transpondedores y servidores de control y gestión}
+      \field{year}{2020}
+    \endentry
+    \entry{MoraBandera2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1591920a22304300c2e6fc8a786b0fd0}{%
+           family={Mora\bibnamedelima Bandera},
+           familyi={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Elias\bibnamedelima Fernando},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12addc436c4e6da98652857cef2c8065}{%
+           family={Villero\bibnamedelima Contreras},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Sara\bibnamedelima Luz},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{fullhash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{bibnamehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{authorbibnamehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{authornamehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{authorfullhash}{db2702166e3b283c686e07f770c78b2a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ciencia e Ingeniería}
+      \field{number}{1}
+      \field{title}{Importancia de la implementación de firewall en redes empresariales como mecanismo para la protección de informa}
+      \field{volume}{7}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=8742508
+      \endverb
+      \verb{url}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=8742508
+      \endverb
+    \endentry
+    \entry{newserverlife_network_equipment_concept_and_types_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72756e915c9a7e68f1dc6974a39120de}{%
+           family={{NewServerLife}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{fullhash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{bibnamehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{authorbibnamehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{authornamehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{authorfullhash}{72756e915c9a7e68f1dc6974a39120de}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://newserverlife.com/articles/network-equipment-concept-and-types/?srsltid=AfmBOoq-EcQzN8UJSumDSRxm7lKF_jZh_omB72rU2gseErq0iRm_EnQP}}
+      \field{month}{10}
+      \field{note}{Accedido el 28 de Octubre de 2025}
+      \field{title}{Network equipment: concept and types}
+      \field{year}{2023}
+    \endentry
+    \entry{odom2019ccna}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe59039fb7e80d17303c49d3ce0ba8b2}{%
+           family={Odom},
+           familyi={O\bibinitperiod},
+           given={Wendell},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Indianapolis, IN, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cisco Press}%
+      }
+      \strng{namehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{fullhash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{bibnamehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{authorbibnamehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{authornamehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{authorfullhash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CCNA 200-301 Official Cert Guide, Volume 1}}
+      \field{year}{2019}
+    \endentry
+    \entry{Orozco2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c4b66f74b218eb0d03bdf4e73a5eec75}{%
+           family={Orozco},
+           familyi={O\bibinitperiod},
+           given={Juan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaedd68e94947316bb0ff83354a68f5d}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{fullhash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{bibnamehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{authorbibnamehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{authornamehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{authorfullhash}{94f28bab1f543658d1fac149d4ede0a7}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Latinoamericana de Tecnología y Sistemas}
+      \field{note}{Disponible en línea}
+      \field{number}{2}
+      \field{title}{Importancia del monitoreo de red en la administración de infraestructuras de TI}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{45\bibrangedash 53}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://www.fortinet.com/lat/resources/cyberglossary/network-monitoring
+      \endverb
+      \verb{url}
+      \verb https://www.fortinet.com/lat/resources/cyberglossary/network-monitoring
+      \endverb
+    \endentry
+    \entry{systimax2020structured}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2258305358afd444fc973ffec2aa78c}{%
+           family={{SYSTIMAX Solutions}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{fullhash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{bibnamehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{authorbibnamehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{authornamehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{authorfullhash}{f2258305358afd444fc973ffec2aa78c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.commscope.com/network-type/enterprise-networks-structured-cabling/systimax/}}
+      \field{note}{Accedido el 28 de octubre de 2025}
+      \field{title}{Structured Cabling Guidelines for Fiber and Copper Systems}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{cisneros2021infraestructura}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1db9142f4475d5f8687b965d9ead3d27}{%
+           family={Cisneros},
+           familyi={C\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Redes y Comunicaciones}%
+      }
+      \strng{namehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{fullhash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{bibnamehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{authorbibnamehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{authornamehash}{1db9142f4475d5f8687b965d9ead3d27}
+      \strng{authorfullhash}{1db9142f4475d5f8687b965d9ead3d27}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible en: \url{https://www.ift.org.mx/sites/default/files/estudio_infraestructura_movil_20241217_final.pdf}}
+      \field{title}{Infraestructura pasiva de redes: fundamentos y mejores prácticas}
+      \field{year}{2021}
+    \endentry
+    \entry{flukenetworks2022cablemanagement}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74ff51ae0c32e8f90fecee76e93e2eb6}{%
+           family={{Fluke Networks}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{fullhash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{bibnamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authorbibnamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authornamehash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \strng{authorfullhash}{74ff51ae0c32e8f90fecee76e93e2eb6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.flukenetworks.com/blog/cabling-chronicles/network-and-cable-testing}}
+      \field{note}{Accedido el 28 de octubre de 2025}
+      \field{title}{Cable Management and Best Installation Practices}
+      \field{year}{2022}
+    \endentry
+    \entry{fries2011tica606}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7eb75c953a38e9ad888a1c3e92890011}{%
+           family={Fries},
+           familyi={F\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Telecommunications Industry Association}%
+      }
+      \strng{namehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{fullhash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{bibnamehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{authorbibnamehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{authornamehash}{7eb75c953a38e9ad888a1c3e92890011}
+      \strng{authorfullhash}{7eb75c953a38e9ad888a1c3e92890011}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Disponible en: \url{https://global.ihs.com/doc_detail.cfm?document_name=TIA-606-B}}
+      \field{title}{ANSI/TIA-606-B: Administration Standard for Telecommunications Infrastructure}
+      \field{year}{2011}
+    \endentry
+    \entry{ghafoor2018campus}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=269b45f3195af90526583a12424742c1}{%
+           family={Ghafoor},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7714cdcc1c1dd74e934334afee695b0a}{%
+           family={Alobaidy},
+           familyi={A\bibinitperiod},
+           given={H.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7c71add42ad5526c6133d7b8316563a}{%
+           family={Othman},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1cda1a00b810f7f3ce5e6629adef6ef}
+      \strng{fullhash}{0694544084816925e0ba00012944e926}
+      \strng{bibnamehash}{0694544084816925e0ba00012944e926}
+      \strng{authorbibnamehash}{0694544084816925e0ba00012944e926}
+      \strng{authornamehash}{f1cda1a00b810f7f3ce5e6629adef6ef}
+      \strng{authorfullhash}{0694544084816925e0ba00012944e926}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications (IJACSA)}
+      \field{number}{11}
+      \field{title}{Design and implementation of a campus network based on hierarchical model}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{pages}{426\bibrangedash 432}
+      \range{pages}{7}
+    \endentry
+    \entry{kurose2021computer}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=940597b1d3215b2b17b93101036fbb5e}{%
+           family={Kurose},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2e119f22d4ef9df7cfb63c82975b459}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Keith\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{fullhash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{bibnamehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{authorbibnamehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{authornamehash}{79b9c386af384b822481cee1fccbb76a}
+      \strng{authorfullhash}{79b9c386af384b822481cee1fccbb76a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8th}
+      \field{title}{{Computer Networking: A Top-Down Approach}}
+      \field{year}{2021}
+    \endentry
+    \entry{martinez2020infraestructura}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ce8ce0529416fc1c2663cd2f15de4389}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Leandro},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a55b686cea34a8923b6ea395549772e}{%
+           family={otros},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{fullhash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{bibnamehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{authorbibnamehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{authornamehash}{bb676a356843cc0325f49a8c00ad2203}
+      \strng{authorfullhash}{bb676a356843cc0325f49a8c00ad2203}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La infraestructura activa se refiere al equipamiento físico electrónico de una red, como routers, switches, antenas, transpondedores y servidores de control y gestión.}
+      \field{journaltitle}{Comunications Network Sustainability}
+      \field{note}{Disponible en: \url{https://people.ac.upc.edu/leandro/pubs/cn-sust-ieee.pdf?utm_source=chatgpt.com}}
+      \field{title}{Infraestructura activa: equipos físicos electrónicos de una red como routers, switches, antenas, transpondedores y servidores de control y gestión}
+      \field{year}{2020}
+    \endentry
+    \entry{MoraBandera2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1591920a22304300c2e6fc8a786b0fd0}{%
+           family={Mora\bibnamedelima Bandera},
+           familyi={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Elias\bibnamedelima Fernando},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12addc436c4e6da98652857cef2c8065}{%
+           family={Villero\bibnamedelima Contreras},
+           familyi={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Sara\bibnamedelima Luz},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{fullhash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{bibnamehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{authorbibnamehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{authornamehash}{db2702166e3b283c686e07f770c78b2a}
+      \strng{authorfullhash}{db2702166e3b283c686e07f770c78b2a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ciencia e Ingeniería}
+      \field{number}{1}
+      \field{title}{Importancia de la implementación de firewall en redes empresariales como mecanismo para la protección de informa}
+      \field{volume}{7}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=8742508
+      \endverb
+      \verb{url}
+      \verb https://dialnet.unirioja.es/servlet/articulo?codigo=8742508
+      \endverb
+    \endentry
+    \entry{newserverlife_network_equipment_concept_and_types_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=72756e915c9a7e68f1dc6974a39120de}{%
+           family={{NewServerLife}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{fullhash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{bibnamehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{authorbibnamehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{authornamehash}{72756e915c9a7e68f1dc6974a39120de}
+      \strng{authorfullhash}{72756e915c9a7e68f1dc6974a39120de}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://newserverlife.com/articles/network-equipment-concept-and-types/?srsltid=AfmBOoq-EcQzN8UJSumDSRxm7lKF_jZh_omB72rU2gseErq0iRm_EnQP}}
+      \field{month}{10}
+      \field{note}{Accedido el 28 de Octubre de 2025}
+      \field{title}{Network equipment: concept and types}
+      \field{year}{2023}
+    \endentry
+    \entry{odom2019ccna}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe59039fb7e80d17303c49d3ce0ba8b2}{%
+           family={Odom},
+           familyi={O\bibinitperiod},
+           given={Wendell},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Indianapolis, IN, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cisco Press}%
+      }
+      \strng{namehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{fullhash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{bibnamehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{authorbibnamehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{authornamehash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \strng{authorfullhash}{fe59039fb7e80d17303c49d3ce0ba8b2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CCNA 200-301 Official Cert Guide, Volume 1}}
+      \field{year}{2019}
+    \endentry
+    \entry{Orozco2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c4b66f74b218eb0d03bdf4e73a5eec75}{%
+           family={Orozco},
+           familyi={O\bibinitperiod},
+           given={Juan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aaedd68e94947316bb0ff83354a68f5d}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{fullhash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{bibnamehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{authorbibnamehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{authornamehash}{94f28bab1f543658d1fac149d4ede0a7}
+      \strng{authorfullhash}{94f28bab1f543658d1fac149d4ede0a7}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Latinoamericana de Tecnología y Sistemas}
+      \field{note}{Disponible en línea}
+      \field{number}{2}
+      \field{title}{Importancia del monitoreo de red en la administración de infraestructuras de TI}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{45\bibrangedash 53}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://www.fortinet.com/lat/resources/cyberglossary/network-monitoring
+      \endverb
+      \verb{url}
+      \verb https://www.fortinet.com/lat/resources/cyberglossary/network-monitoring
+      \endverb
+    \endentry
+    \entry{systimax2020structured}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f2258305358afd444fc973ffec2aa78c}{%
+           family={{SYSTIMAX Solutions}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{fullhash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{bibnamehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{authorbibnamehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{authornamehash}{f2258305358afd444fc973ffec2aa78c}
+      \strng{authorfullhash}{f2258305358afd444fc973ffec2aa78c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.commscope.com/network-type/enterprise-networks-structured-cabling/systimax/}}
+      \field{note}{Accedido el 28 de octubre de 2025}
+      \field{title}{Structured Cabling Guidelines for Fiber and Copper Systems}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

@@ -1,0 +1,38 @@
+\subsection*{Paso 5. Calcule el costo de la modernización de la infraestructura}
+
+Se presenta una estimación de orden de magnitud (ROM) para los costos adicionales que implicaría implementar las tendencias tecnológicas de vanguardia (Wi-Fi 7, SDN y Zero Trust).
+
+\subsubsection*{Suposiciones de Escala para la Estimación:}
+
+La siguiente estimación se basa en una escala inferida para un edificio de aulas, cuantificada en:
+\begin{itemize}
+\item \textbf{20 Puntos de Acceso (APs)}
+\item \textbf{400 Usuarios concurrentes} (para licenciamiento de ZTNA)
+\item \textbf{25 Dispositivos de red} (20 APs + 5 switches, para licenciamiento de SDN)
+\end{itemize}
+
+\subsubsection*{Tabla de Costos Adicionales (ROM)}
+
+\begin{table}[htbp]
+\centering
+\caption{Estimación de Costos Adicionales (ROM) - USD}
+\label{tab:costos_rom}
+\begin{tabular}{l c r r}
+\toprule
+\textbf{Material} & \textbf{Cantidad} & \textbf{Precio Unitario} & \textbf{Subtotal} \\
+\midrule
+Access Point Wi-Fi 7 (802.11be) & 20 & \$500.00 & \$10,000.00 \\
+Licencia Anual SDN (por dispositivo) & 25 & \$100.00 & \$2,500.00 \\
+Suscripción Anual ZTNA (por dispositivo) & 440 & \$30.00 & \$13,200.00 \\
+\midrule
+\textbf{Total Estimación Adicional (ROM)} & & & \textbf{\$25,700.00} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection*{Justificación de la Estimación:}
+\begin{itemize}
+\item \textbf{Wi-Fi 7:} Estimación basada en un costo promedio de \$500 USD por AP para hardware empresarial \texttt{802.11be}, reemplazando los APs de la cotización original (20 APs * \$500/AP).
+\item \textbf{SDN:} Estimación basada en un costo de licenciamiento de controlador (ej. \texttt{Aruba Central}, \texttt{Cisco DNA}) de \$100 USD por dispositivo al año (25 dispositivos * \$100/dispositivo).
+\item \textbf{Zero Trust (ZTNA):} Estimación basada en un costo de suscripción por usuario (ej. \texttt{FortiClient ZTNA}, \texttt{Cisco ISE}) de \$30 USD por usuario al año (400 usuarios * \$30/usuario).
+\end{itemize}
