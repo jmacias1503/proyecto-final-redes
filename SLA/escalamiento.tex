@@ -1,11 +1,30 @@
 \subsection{Escalamiento}
 
-En caso de que un problema no se resuelva de manera satisfactoria en el primer nivel de soporte, se seguirá el siguiente procedimiento de escalamiento:
+El proceso de escalamiento garantiza que las incidencias relacionadas con el servicio de red sean atendidas de manera oportuna y por el nivel de soporte adecuado, de acuerdo con la estructura de contactos definida en este SLA.
 
+\subsubsection*{Niveles de Escalamiento}
 \begin{itemize}
-    \item \textbf{Nivel 1: Soporte Técnico.} El equipo de soporte técnico es el primer punto de contacto para todos los problemas de red. El objetivo es resolver la mayoría de los problemas en este nivel.
-    \item \textbf{Nivel 2: Administrador de Red.} Si el problema no puede ser resuelto por el soporte técnico en un plazo de 4 horas hábiles, el caso se escalará al administrador de red, quien realizará un análisis más profundo del problema.
-    \item \textbf{Nivel 3: Jefe de Infraestructura Tecnológica.} Si el administrador de red no puede resolver el problema en un plazo de 8 horas hábiles, el caso se escalará al Jefe de Infraestructura Tecnológica para su revisión y toma de decisiones.
+    \item \textbf{Nivel 1: Mesa de Ayuda de Aulas.} Primer punto de contacto para el registro de incidentes y solicitudes. Realiza el diagnóstico inicial, aplica soluciones estándar y da seguimiento básico. Si el incidente no puede ser resuelto o se detecta que afecta a múltiples usuarios o servicios críticos, se escalara al Nivel 2 con toda la información recolectada (descripción, impacto, bitácora de acciones y evidencias).
+    \item \textbf{Nivel 2: Soporte Especializado de Redes.} Atiende incidentes escalados desde el Nivel 1 que involucren conmutadores, enlaces troncales, VLANs, Wi-Fi o firewall perimetral. Si el incidente presenta impacto crítico (por ejemplo, indisponibilidad total del edificio o riesgo de seguridad), o requiere cambios mayores en la infraestructura, el caso se escalara al Nivel 3.
+    \item \textbf{Nivel 3: Coordinación de Infraestructura y Proveedores.} Responsable de la gestión de incidentes mayores, coordinación de cambios significativos, relación con el proveedor de Internet y fabricantes, así como de la toma de decisiones para la restauración del servicio cuando se requieran acciones extraordinarias.
 \end{itemize}
 
-Se notificará al usuario sobre el estado de su solicitud en cada nivel de escalamiento.
+En cada cambio de nivel, se actualiza el estado del incidente en la bitácora correspondiente y se notifica a la parte contratante sobre el progreso y las acciones en curso.
+
+\subsubsection*{Clasificación de Incidencias y Tiempos de Atención}
+Las incidencias se clasifican según su impacto y urgencia, definiendo tiempos objetivo de respuesta (inicio de la atención) y de resolución (restauración del servicio o aplicación de una solución temporal aceptable). La Tabla~\ref{tab:escalamiento-incidencias} resume estos parámetros.
+
+\begin{table}[H]
+    \centering
+    \caption{Clasificación de incidencias y tiempos de atención}\label{tab:escalamiento-incidencias}
+    \begin{tabular}{p{4cm}p{5cm}cc}
+        	\toprule
+        	\textbf{Clasificación} & \textbf{Descripción} & \textbf{Tiempo de respuesta} & \textbf{Tiempo de resolución} \\
+        \midrule
+        Crítica & Caída total del servicio de red en el edificio o incidente de seguridad grave. & Hasta 2 hora & Hasta 4 horas \\
+        Alta & Afectación parcial significativa (varias aulas o servicios clave). & Hasta 2 horas & Hasta 8 horas \\
+        Media & Problemas que afectan a un conjunto reducido de usuarios o servicios no críticos. & Hasta 2 horas & Hasta 24 horas \\
+        Baja & Solicitudes de servicio, dudas o mejoras sin impacto directo en la disponibilidad. & Hasta 2 día hábil & Hasta 5 días hábiles \\
+        \bottomrule
+    \end{tabular}
+\end{table}
