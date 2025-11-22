@@ -4,20 +4,20 @@ Los firewalls constituyen un componente esencial en la seguridad de redes modern
 La solución propuesta se compone de una plataforma de hardware dedicada y un sistema operativo de firewall de nueva generación.
 
 \subsubsection{Plataforma de Hardware}
-El hardware seleccionado es el \textbf{Fortinet FortiGate 40F}. Este equipo es un firewall físico de nueva generación (NGFW) diseñado para redes empresariales pequeñas y medianas, con alto rendimiento y seguridad avanzada.
+El hardware seleccionado es el \textbf{Fortinet FortiGate 60F}. Este equipo es un firewall físico de nueva generación (NGFW) diseñado para redes empresariales pequeñas y medianas, con mayor capacidad de procesamiento y seguridad avanzada que modelos de entrada.
 
 La justificación de esta elección se basa en varios puntos clave:
 \begin{itemize}
-    \item \textbf{Rendimiento de Red:} Ofrece un throughput de firewall superior a 5 Gbps y protección contra amenazas adecuada para el tráfico de un edificio de aulas con múltiples VLAN y usuarios concurrentes.
+    \item \textbf{Rendimiento de Red:} Ofrece un throughput de firewall superior a 10 Gbps y protección contra amenazas adecuada para el tráfico de un edificio de aulas con múltiples VLAN, usuarios concurrentes y crecimiento futuro.
     \item \textbf{Segmentación y VLANs Dinámicas:} Soporta múltiples VLAN y permite, mediante 802.1X/RADIUS, asignar dinámicamente la VLAN según el usuario o dispositivo, lo que facilita separar tráfico de administración, profesores, alumnos, cámaras y VoIP.
     \item \textbf{Seguridad Avanzada:} Integra capacidades de inspección profunda de paquetes, IPS, filtrado web, control de aplicaciones y antivirus, alineadas con el modelo de seguridad de próxima generación.
     \item \textbf{VPN y Acceso Remoto:} Permite crear túneles VPN IPsec y SSL para acceso seguro de profesores y personal administrativo a los recursos internos.
     \item \textbf{Gestión Centralizada:} Puede administrarse mediante su interfaz web o integrarse a plataformas de gestión como FortiCloud o FortiManager para monitoreo centralizado.
-    \item \textbf{Costo y Soporte:} El modelo FortiGate 40F se ajusta al presupuesto del proyecto (aproximadamente \$10,539 MXN) y puede complementarse con la licencia de soporte FortiCare Premium de 1 año.
+    \item \textbf{Costo y Soporte:} El modelo FortiGate 60F se mantiene dentro del presupuesto asignado (aproximadamente \$13,899 MXN) y se complementa con la licencia de soporte FortiCare Premium de 1 a\~no, lo que asegura actualizaciones y acompañamiento del fabricante.
 \end{itemize}
 
 \subsubsection{Plataforma de Software (NGFW)}
-El FortiGate 40F opera con \textbf{FortiOS}, el sistema operativo propietario de Fortinet para firewalls de nueva generación. FortiOS proporciona una interfaz gráfica moderna para la administración del firewall, la configuración de servicios de red (DHCP, DNS), la creación de VPNs y el monitoreo detallado del tráfico y de los eventos de seguridad.
+El FortiGate 60F opera con \textbf{FortiOS}, el sistema operativo propietario de Fortinet para firewalls de nueva generación. FortiOS proporciona una interfaz gráfica moderna para la administración del firewall, la configuración de servicios de red (DHCP, DNS), la creación de VPNs y el monitoreo detallado del tráfico y de los eventos de seguridad.
 
 La justificación para la elección de FortiOS complementa al hardware:
 \begin{itemize}
