@@ -1,9 +1,11 @@
 \subsection*{Paso 3. Identifique las carencias de su infraestructura actual}
 
-Como resultado de la evaluación técnica realizada en el Paso 2, se determina que la infraestructura diseñada se alinea completamente con los principios de una red moderna, tal como se definen en el Paso 1.
+Como continuación del diagnóstico realizado en el Paso 2, se identifican múltiples brechas entre el estado actual del Edificio A y las características de una infraestructura de red moderna descritas en el Paso 1.
 
-Las carencias estructurales habitualmente asociadas a redes heredadas o no planificadas (tales como dominios de broadcast extensos, topologías planas que comprometen la seguridad, o una gestión de direccionamiento IP deficiente) han sido solventadas de manera proactiva mediante el diseño implementado.
+En primer lugar, la ausencia de un diseño jerárquico formal implica que no existe una separación clara entre capas de acceso y distribución. Los puntos de conexión actuales operan de manera aislada, sin un backbone estructurado que garantice rutas de comunicación redundantes y de alto rendimiento entre aulas, oficinas y demás espacios del edificio.
 
-El modelo Jerárquico asegura la modularidad y la predictibilidad del rendimiento. La segmentación de VLAN y el direccionamiento IP ordenado resuelven los requisitos de aislamiento de tráfico, seguridad y gestión.
+En segundo lugar, no hay segmentación lógica del tráfico por medio de \texttt{VLANs}. Esto imposibilita separar adecuadamente los servicios académicos, administrativos, de voz o de videovigilancia, incrementando la superficie de riesgo y dificultando la aplicación de políticas de seguridad basadas en \texttt{ACLs} o enrutamiento inter-VLAN.
 
-Por consiguiente, se concluye que la arquitectura evaluada cumple con los requisitos funcionales y de diseño del estándar moderno, y no presenta brechas de diseño ni deficiencias funcionales estructurales que requieran una modernización correctiva.
+Adicionalmente, la falta de herramientas de gestión y monitoreo centralizado impide contar con visibilidad sobre el desempeño de la red, la identificación temprana de fallas o congestiones y la generación de métricas para la toma de decisiones. Los problemas de conectividad intermitente y el bajo ancho de banda percibido por los usuarios son síntomas directos de esta carencia de control.
+
+En conjunto, estas deficiencias confirman que la infraestructura actual del Edificio A presenta carencias estructurales significativas en términos de diseño jerárquico, segmentación, disponibilidad, rendimiento y gestionabilidad, lo que justifica la necesidad de un proyecto de modernización integral.

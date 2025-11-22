@@ -1,9 +1,23 @@
 \subsection*{Paso 1. Entender qué aspecto tiene la infraestructura moderna}
+La red LAN cableada del campus utiliza un modelo de diseño jerárquico para dividir el diseño en grupos o capas modulares. Esta división en capas permite que cada capa implemente funciones específicas, lo que simplifica el diseño de la red y, por lo tanto, su despliegue y gestión.
 
-El estándar de la industria para infraestructuras de red empresariales se fundamenta en un diseño jerárquico. Este modelo, que comúnmente incluye las capas de \textit{Acceso}, \textit{Distribución} y \textit{Núcleo} (o un núcleo colapsado), está diseñado para garantizar escalabilidad, modularidad y predictibilidad en el rendimiento del tráfico al definir funciones claras para cada estrato de la red.
+La modularidad en el diseño de redes permite crear elementos que se pueden replicar en toda la red. La replicación facilita la escalabilidad de la red y proporciona un método de despliegue consistente.
 
-Una característica fundamental de las redes modernas es la evasión de topologías ``planas''. El uso de Redes de Área Local Virtuales (\texttt{VLANs}) es el mecanismo estándar para la segmentación de dominios de broadcast. Esta segmentación es crucial para aislar lógicamente el tráfico por función (ej. datos de usuario, voz sobre IP, gestión de red, tráfico de invitados o videovigilancia) y sirve como base indispensable para la aplicación de políticas de seguridad granulares mediante enrutamiento inter-VLAN y Listas de Control de Acceso (\texttt{ACLs}).
+En arquitecturas de red planas o en malla, los cambios suelen afectar a un gran número de sistemas. El diseño jerárquico ayuda a limitar los cambios operativos a un subconjunto de la red, lo que facilita la gestión y mejora la resiliencia.
 
-En términos de rendimiento y disponibilidad, la infraestructura moderna debe soportar conectividad inalámbrica de alta densidad, empleando estándares actuales como \texttt{Wi-Fi 6 (802.11ax)} o \texttt{Wi-Fi 7 (802.11be)}, para manejar la proliferación de dispositivos móviles. Asimismo, la Alta Disponibilidad (HA) es un requisito, implementada a través de mecanismos de redundancia en enlaces físicos (Agregación de Enlaces - \texttt{LACP}) y protocolos de conmutación por error para asegurar la continuidad del servicio.
+La estructuración modular de la red en elementos pequeños y fáciles de entender también facilita la resiliencia mediante una mejor detección de fallos.
 
-Finalmente, la gestionabilidad es un pilar esencial. La infraestructura debe ser observable (monitoreable) a través de protocolos estándar como \texttt{SNMP (Simple Network Management Protocol)} y análisis de flujo (como \texttt{NetFlow}), y ser susceptible a una gestión centralizada. Esta capacidad de gestión es el cimiento sobre el cual se construyen las arquitecturas de automatización y Redes Definidas por Software (\texttt{SDN}).
+Un diseño de LAN jerárquico incluye las siguientes tres capas:
+\begin{itemize}
+    \item Capa de acceso : proporciona a los puntos finales y usuarios acceso directo a la red
+    \item Capa de distribución : agrega las capas de acceso y proporciona conectividad a los servicios.
+    \item Capa central : proporciona conectividad entre las capas de distribución para grandes entornos LAN.
+\end{itemize}
+
+\parencite{cisco2024campus}
+
+
+
+En cuanto al rendimiento y la disponibilidad, las redes modernas deben soportar altos volúmenes de tráfico y entornos de alta densidad de usuarios. Para ello, las guías de diseño recomiendan el uso de tecnologías inalámbricas actuales como \texttt{Wi-Fi 6 (802.11ax)} o \texttt{Wi-Fi 7 (802.11be)}, así como mecanismos de Alta Disponibilidad (HA) basados en redundancia de enlaces (Agregación de Enlaces \texttt{LACP}) y protocolos de conmutación por error que reduzcan al mínimo los tiempos de interrupción del servicio.
+
+Finalmente, la gestionabilidad y la visibilidad integral de la red son consideradas requisitos fundamentales. La infraestructura debe ser monitoreable mediante protocolos estándar como \texttt{SNMP (Simple Network Management Protocol)} y análisis de flujo (por ejemplo, \texttt{NetFlow} o tecnologías equivalentes), y debe permitir una gestión centralizada que sirva de base para la automatización, la aplicación coherente de políticas y la adopción de enfoques como las Redes Definidas por Software (\texttt{SDN}).
