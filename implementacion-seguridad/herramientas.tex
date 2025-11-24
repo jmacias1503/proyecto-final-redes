@@ -3,9 +3,9 @@
 WireGuard es un túnel VPN moderno orientado al rendimiento y la simplicidad operativa. En el contexto de este proyecto se implementará específicamente sobre el \textbf{firewall Fortinet FortiGate 40F}, utilizando la VLAN de administración como segmento de terminación del túnel para el acceso remoto seguro al edificio de aulas. WireGuard utiliza criptografía actual, opera sobre UDP y se integra con facilidad en entornos de campus y acceso remoto. Para su implementación se recomienda: generar pares de claves por dispositivo, definir pares (\textit{peers}) con \texttt{AllowedIPs} específicos, publicar el servicio en el puerto UDP 51820, aplicar reglas de cortafuegos que restrinjan el alcance de las subredes expuestas y habilitar registro de eventos para auditoría.
 
 \begin{figure}[H]
+	\caption{Ejemplo de topología con WireGuard}\label{fig:wireguard-example}
 	\centering
 	\includegraphics[width=0.9\linewidth]{images/wireguard-example}
-	\caption{Ejemplo de topología con WireGuard}\label{fig:wireguard-example}
 \end{figure}
 
 
@@ -17,8 +17,8 @@ Como complemento a la VPN, se sugieren herramientas puntuales para refuerzo defe
 - \textit{Wazuh} (Antimalware): plataforma de seguridad y monitoreo que integra capacidades de detección de malware, análisis de integridad y gestión de vulnerabilidades. Permite la supervisión continua de endpoints y servidores, generando alertas ante actividades sospechosas. Su arquitectura distribuida facilita la escalabilidad en entornos de red complejos.
 
 \begin{figure}[H]
+	\caption{Vista referencial de Wazuh}\label{fig:wazuh}
 	\centering
 	\includegraphics[width=0.9\linewidth]{images/wazuh}
-	\caption{Vista referencial de Wazuh}\label{fig:wazuh}
 \end{figure}
 
