@@ -1,7 +1,7 @@
 
 \subsubsection{Modelo jerárquico de red}
 
-El diseño propuesto se fundamenta en el modelo jerárquico de tres capas, una arquitectura ampliamente adoptada por su escalabilidad, rendimiento y facilidad de gestión \parencite{odom2019ccna}.
+El modelo se adapta al caso del Edificio A mediante un enfoque de \emph{núcleo colapsado}: dada la dimensión y requerimientos del edificio, se emplea una arquitectura práctica de dos capas (acceso y núcleo colapsado) que mantiene simplicidad operativa y reduce costos.
 
 \begin{figure}[H]
   \centering
@@ -10,9 +10,10 @@ El diseño propuesto se fundamenta en el modelo jerárquico de tres capas, una a
   \label{fig:modelo-jerarquico}
 \end{figure}
 
-El modelo divide la red lógicamente en tres capas funcionales:
-	
-	\begin{itemize}
-	  \item \textbf{Capa de acceso (Morado)}. Punto de entrada para dispositivos finales como equipos de cómputo, teléfonos VoIP, cámaras CCTV y puntos de acceso. Proporciona conectividad y aplica políticas a nivel de puerto \parencite{kurose2021computer}. Los switches de los pisos 2 y 3, así como los puertos de usuario del piso 1, operan en esta capa.
-	  \item \textbf{Capa de distribución (Azul)}. Agrega el tráfico de la capa de acceso y funge como límite de enrutamiento entre VLAN (enrutamiento inter-VLAN). Implementa políticas de red y agregación de enlaces \parencite{ghafoor2018campus}. Se adopta un núcleo colapsado en el switch multicapa central.
-	  \item \textbf{Capa de núcleo (Verde)}. Proporciona el backbone de alta velocidad conmutando paquetes de forma eficiente y garantizando alta disponibilidad. En este diseño la capa está representada por los routers que enlazan el edificio con redes externas \parencite{odom2019ccna}.	\end{itemize}
+
+\begin{itemize}
+	\item \textbf{Capa de acceso (Morado)}. Punto de entrada para dispositivos finales como equipos de cómputo, teléfonos VoIP, cámaras CCTV y puntos de acceso. Proporciona conectividad y aplica políticas a nivel de puerto \parencite{kurose2021computer}. En el diagrama, los switches secundarios (Switch 2 y Switch 3) operan en esta capa.
+	\item \textbf{Capa de núcleo colapsado (Verde)}. Combina las funciones de distribución y núcleo en un único dispositivo multicapa (Switch 1). Esta aproximación es adecuada para un edificio no muy grande pues evita la redundancia de hardware y reduce costos de material y cableado, manteniendo capacidad de enrutamiento y agregación suficiente para la operación prevista \parencite{ghafoor2018campus,odom2019ccna}.
+\end{itemize}
+
+En este diseño, el \textbf{Switch 1} actúa como un switch multicapa (mixto): concentra enlaces  y realiza el enrutamiento inter-VLAN además de funciones de agregación. Los \textbf{Switch 2} y \textbf{Switch 3} operan como switches de acceso conectando los dispositivos finales (PC, cámaras, APs, teléfonos) y aplicando políticas por puerto. Esta configuración optimiza costos y complejidad sin comprometer la escalabilidad razonable para futuras ampliaciones.
