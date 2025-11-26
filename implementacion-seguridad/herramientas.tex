@@ -1,6 +1,7 @@
 \subsection{Herramientas de seguridad adicionales}\label{sec:herramientas-adicionales}
 
-WireGuard es un túnel VPN moderno orientado al rendimiento y la simplicidad operativa. En el contexto de este proyecto se implementará específicamente sobre el \textbf{firewall Fortinet FortiGate 40F}, utilizando la VLAN de administración como segmento de terminación del túnel para el acceso remoto seguro al edificio de aulas. WireGuard utiliza criptografía actual, opera sobre UDP y se integra con facilidad en entornos de campus y acceso remoto. Para su implementación se recomienda: generar pares de claves por dispositivo, definir pares (\textit{peers}) con \texttt{AllowedIPs} específicos, publicar el servicio en el puerto UDP 51820, aplicar reglas de cortafuegos que restrinjan el alcance de las subredes expuestas y habilitar registro de eventos para auditoría.
+WireGuard es un túnel VPN moderno orientado al rendimiento y la simplicidad operativa. En el contexto de este proyecto se implementará específicamente sobre el \textbf{firewall Fortinet FortiGate 60F}, utilizando la VLAN de administración como segmento de terminación del túnel para el acceso remoto seguro al edificio de aulas. WireGuard utiliza criptografía actual, opera sobre UDP y se integra con facilidad en entornos de campus y acceso remoto. Para su implementación se recomienda: generar pares de claves por dispositivo, definir pares (\textit{peers}) con \texttt{AllowedIPs} específicos, publicar el servicio en el puerto UDP 51820, aplicar reglas de cortafuegos que restrinjan el alcance de las subredes expuestas y habilitar registro de eventos para auditoría.
+
 
 \begin{figure}[H]
 	\caption{Ejemplo de topología con WireGuard}\label{fig:wireguard-example}

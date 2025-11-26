@@ -2,23 +2,27 @@
 
 \subsubsection{Velocidad}
 
-Se tomaron medidas de la velocidad de red, y se encontró una bajada en la velocidad a lo largo del día
+Se tomaron medidas de velocidad a lo largo del día y se observó una disminución en ciertos periodos de alta ocupación.
 
-\begin{figure}
-  \caption{Gráfica de análisis de WiFi a lo largo del día}
-  \includegraphics[width=0.7\textwidth]{images/data-wifi-strength.png}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{../images/data-wifi-strength.png}
+  \caption{Gráfica de análisis de la señal y velocidad de WiFi a lo largo del día.}
+  \label{fig:wifi-strength}
 \end{figure}
 
 \subsubsection{Canales de red}
 
-Analizando el ruido con utilidades de terminal, se hallaron los siguientes canales y su uso
+Analizando el ruido con utilidades de terminal se identificaron los siguientes canales y el número de dispositivos detectados:
 
-\begin{table}
-  \caption{Tabla de canales utilizados}
-  \begin{tabular}{cc}
-    \hline
+\begin{table}[H]
+  \centering
+  \caption{Canales detectados y dispositivos}
+  \label{tab:wifi-channels}
+  \begin{tabularx}{0.6\textwidth}{c c}
+    	\toprule
     Canal & Dispositivos detectados\\
-    \hline
+    \midrule
     1 & 3\\
     2 & 1\\
     3 & 2\\
@@ -33,13 +37,15 @@ Analizando el ruido con utilidades de terminal, se hallaron los siguientes canal
     64 & 1\\
     104 & 1\\
     149 & 4\\
-    \hline
-  \end{tabular}
+    \bottomrule
+  \end{tabularx}
 \end{table}
 
-\begin{figure}
-  \caption{Gráfica de barras de los canales de WiFi}
-  \includegraphics[width=0.6\textwidth]{images/wifi-channels.png}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../images/wifi-channels.png}
+  \caption{Distribución de uso de canales detectados.}
+  \label{fig:wifi-channels}
 \end{figure}
 
-Con esta información, se puede deducir en apuntar al rango de canales entre el canal 36 y 52, ya que nos ofrece una amplia gama para una baja interferencia, y una mayor cobertura para agregar más dispositivos
+Con estos resultados se recomienda priorizar el uso de canales en el rango 36--52 (banda de 5 GHz), ya que presentan menor interferencia y mayor capacidad para agregar dispositivos; la banda de 2.4 GHz (canales 1--11) muestra mayor saturación y debe emplearse solo cuando los equipos no soporten 5 GHz.
