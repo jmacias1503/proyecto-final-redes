@@ -21,10 +21,27 @@ Las incidencias se clasifican según su impacto y urgencia, definiendo tiempos o
         	\toprule
         	\textbf{Clasificación} & \textbf{Descripción} & \textbf{Tiempo de respuesta} & \textbf{Tiempo de resolución} \\
         \midrule
-        Crítica & Caída total del servicio de red en el edificio o incidente de seguridad grave. & Hasta 2 hora & Hasta 4 horas \\
-        Alta & Afectación parcial significativa (varias aulas o servicios clave). & Hasta 2 horas & Hasta 8 horas \\
-        Media & Problemas que afectan a un conjunto reducido de usuarios o servicios no críticos. & Hasta 2 horas & Hasta 24 horas \\
-        Baja & Solicitudes de servicio, dudas o mejoras sin impacto directo en la disponibilidad. & Hasta 2 día hábil & Hasta 5 días hábiles \\
+        Crítica & Caída total del servicio de red en el edificio o incidente de seguridad grave. & Hasta 2 horas & Hasta 12 horas \\
+        Alta & Afectación parcial significativa (varias aulas o servicios clave). & Hasta 4 hora & Hasta 18 horas \\
+        Media & Problemas que afectan a un conjunto reducido de usuarios o servicios no críticos. & Hasta 4 horas & Hasta 48 horas \\
+        Baja & Solicitudes de servicio, dudas o mejoras sin impacto directo en la disponibilidad. & Hasta 2 días hábiles & Hasta 5 días hábiles \\
         \bottomrule
     \end{tabular}
 \end{table}
+
+\begin{flushleft}
+    	\textit{Nota.} El tiempo de respuesta indica el intervalo máximo esperado hasta que un técnico se apunte al incidente y comience las acciones de diagnóstico y mitigación. El tiempo de resolución es el plazo aproximado máximo esperado para restaurar el servicio o aplicar una solución temporal aceptable; tiempos reales pueden variar según la complejidad y disponibilidad de repuestos o proveedores.
+\end{flushleft}
+
+\subsubsection{Penalizaciones}
+
+En caso de incumplimiento de los tiempos de respuesta o resolución establecidos, se aplicarán las siguientes penalizaciones, previo registro y verificación del incidente:
+\begin{itemize}
+    \item \textbf{Crítica:} Si la resolución excede el plazo acordado, se aplicará un crédito equivalente al 5\% del valor mensual del servicio por cada incidente crítico confirmado, hasta un máximo del 20\% mensual.
+    \item \textbf{Alta:} En caso de resolución fuera de tiempo, se aplicará un crédito del 3\% del valor mensual del servicio por incidente, hasta un máximo del 12\% mensual.
+    \item \textbf{Media:} Si no se cumple el tiempo de resolución, se aplicará un crédito del 1\% del valor mensual del servicio por incidente, acumulable hasta 5\% mensual.
+    \item \textbf{Baja:} Para incidencias de baja prioridad no resueltas en el plazo, se emitirá una observación formal y se podrá aplicar una rebaja única del 0.5\% del valor mensual por repetición persistente; la primera incidencia se documenta sin penalización monetaria.
+\end{itemize}
+
+Las penalizaciones se reconocerán como créditos en la factura siguiente una vez verificado el incumplimiento por parte de la coordinación de infraestructura. No se aplicarán penalizaciones en casos de fuerza mayor, mantenimiento programado notificado con la antelación acordada, o cuando el retraso se deba a la falta de respuesta o recursos por parte del contratante.
+
