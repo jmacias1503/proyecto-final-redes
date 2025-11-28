@@ -1,53 +1,43 @@
 \subsection{Cronograma de actividades}
 \label{sec:cronograma-actividades}
 
-Este cronograma es la hoja de ruta que permite al equipo del proyecto mantener el control sobre los plazos y asegurar que cada entregable se complete de manera oportuna.
+Este cronograma resume las fases principales del proyecto y sus periodos, sirviendo como hoja de ruta para la coordinación y control de entregables.
 
 \begin{figure}[H]
-    \caption{Cronograma de actividades (Septiembre - Noviembre).}
-    \centering
-    \includegraphics[width=\linewidth]{../images/cronograma.png}
-\label{fig:cronograma}
+        \centering
+        \includegraphics[width=\linewidth]{../images/cronograma.png}
+        \caption{Cronograma de actividades (15 de septiembre -- primera semana de diciembre).}
+        \label{fig:cronograma}
 \end{figure}
 
-El cronograma distribuye las tareas en un horizonte temporal que abarca desde inicios de septiembre hasta finales de noviembre. Permite coordinar los esfuerzos del equipo, identificar dependencias y monitorear el progreso del proyecto.
+\noindent Fechas clave: \textbf{Inicio:} 15 de septiembre. \textbf{Cierre estimado:} primera semana de diciembre.
 
-La asignación de tiempos para las seis fases del proyecto se detalla a continuación, basándose en la distribución quincenal visualizada:
-
+\medskip
 \begin{enumerate}
-    \item Planificación y diseño
-            
-            \textbf{Tiempo:} Del 1 de septiembre al 30 de septiembre.
-            
-            \textbf{Propósito:} Fase inicial que abarca las dos quincenas de septiembre. Se definirá la arquitectura completa de la red, se seleccionará la tecnología y el hardware, y se establecerán los objetivos del proyecto.
+    \item \textbf{Planificación y diseño} \\
+        	\textit{Periodo:} 15 de septiembre -- 15 de octubre. \newline
+        Definición de requerimientos, diseño lógico y físico, levantamiento y direccionamiento IP.
 
-    \item Implementación de la red
-            
-            \textbf{Tiempo:} Del 1 de octubre al 31 de octubre.
-            
-            \textbf{Propósito:} Abarca la totalidad del mes de octubre. Instalación física del cableado, switches, routers y puntos de acceso, y configuración de la conectividad básica.
+    \item \textbf{Implementación de la red} \\
+        	\textit{Periodo:} 8 de octubre -- 31 de octubre. \newline
+        Montaje físico, cableado estructurado y configuración lógica de equipos; inicio parcial en paralelo con diseño.
 
-    \item Monitoreo y análisis de la red
-            
-            \textbf{Tiempo:} Del 1 de noviembre al 15 de noviembre.
-            
-            \textbf{Propósito:} Ejecutado durante la primera quincena de noviembre. Vigilar el rendimiento, identificar cuellos de botella y analizar el tráfico mediante herramientas de monitoreo.
+    \item \textbf{Monitoreo y análisis de la red} \\
+        	\textit{Periodo:} 1 de noviembre -- 15 de noviembre. \newline
+        Establecimiento de líneas base, recolección de métricas y validación de capacidad de enlaces.
 
-    \item Implementación de seguridad
-            
-            \textbf{Tiempo:} Del 1 de noviembre al 15 de noviembre.
-            
-            \textbf{Propósito:} Se realiza en paralelo al monitoreo (primera quincena de noviembre). Configurar firewalls, políticas de acceso, sistemas de detección de intrusos y asegurar las conexiones.
+    \item \textbf{Implementación de seguridad} \\
+        	\textit{Periodo:} 8 de noviembre -- 21 de noviembre. \newline
+        Hardening: políticas en firewall, ACLs, IDS y aseguramiento de accesos; ejecutada en paralelo con monitoreo.
 
-    \item Administración de fallas
-            
-            \textbf{Tiempo:} Del 10 de noviembre al 20 de noviembre.
-            
-            \textbf{Propósito:} Esta fase transicional comienza al cierre de las implementaciones de seguridad y se extiende hacia la segunda mitad del mes. Establecer procesos de detección, diagnóstico y resolución de fallas.
+    \item \textbf{Administración de fallas} \\
+        	\textit{Periodo:} 15 de noviembre -- 30 de noviembre. \newline
+        Detección, aislamiento y corrección de anomalías; pruebas de redundancia y convergencia.
 
-    \item Calidad del servicio (QoS)
-            
-            \textbf{Tiempo:} Del 21 de noviembre al 30 de noviembre.
-            
-            \textbf{Propósito:} Fase final del proyecto (cierre de la segunda quincena de noviembre). Implementar políticas de Calidad de Servicio para priorizar tráfico crítico y garantizar el rendimiento de aplicaciones importantes.
+    \item \textbf{Calidad del servicio (QoS)} \\
+        	\textit{Periodo:} Transversal (todo el proyecto). \newline
+        Implementación y ajuste continuo de políticas QoS para priorizar voz y video.
 \end{enumerate}
+
+\medskip
+La entrega final de documentación y cierre formal se prevé para la primera semana de diciembre.
